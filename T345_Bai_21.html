@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wrapper, .wrapper2, .wrapper3, .wrapper4, .wrapper5, .wrapper6 {
+            width: 1000px;height: 500px;background-color: blue;
+            border: 2px solid;
+            margin-bottom: 20px;
+        }
+        .header, .section, .footer {
+            width: 100%;background-color: darksalmon;
+        }
+        .header, .footer{
+            height: 10%;
+            text-align: center;
+        }
+        .section {
+            height: 80%;
+            border-top: 2px solid;
+            border-bottom: 2px solid;
+            padding: 10px 0 10px 10px;
+            box-sizing: border-box;
+        }
+
+        .header2, .footer2 {
+            width: 100%;background-color: aquamarine;
+        }
+
+        .header2, .footer2{
+            height: 10%;
+            text-align: center;
+            border-bottom: 2px solid;
+            box-sizing: border-box;
+        }
+
+        .content{
+            width: 100%;
+            height: 80%;
+            border-bottom: 2px solid;
+            background-color: aquamarine;
+        }
+
+        .nav, .section2 {
+            background-color: aquamarine;
+            width: 30%;
+            height: 100%;
+        }
+        .section2 {
+            float: right;
+            border-left: 2px solid;
+        }
+        .nav{
+            float: left;
+            border-right: 2px solid;
+        }
+
+        .header3, .menu, .footer3{
+            width: 100%;
+            height: 10%;
+            background-color: blanchedalmond;
+            border-bottom: 2px solid;
+            box-sizing: border-box;
+        }
+        .nav3, .section3 {
+            background-color: blanchedalmond;
+            width: 30%;
+            height: 100%;
+            box-sizing: border-box;
+        }
+        .content2{
+            width: 100%;
+            height: 70%;
+            border-bottom: 2px solid;
+            background-color: blanchedalmond;
+        }
+        .section3 {
+            position: relative;
+            float: right;
+            border-left: 2px solid;
+        }
+        .nav3{
+            float: left;
+            border-right: 2px solid;
+        }
+
+        .header4, .footer4 {
+            width: 100%;background-color: cornflowerblue;
+        }
+        .header4, .footer4{
+            height: 10%;
+            text-align: center;
+            border-bottom: 2px solid;
+            box-sizing: border-box;
+        }
+        .content4{
+            width: 100%;
+            height: 80%;
+            border-bottom: 2px solid;
+        }
+        .nav4, .section4 {
+            background-color: cornflowerblue;
+            box-sizing: border-box;
+        }
+        .nav4{
+            height: 100%;
+            width: 30%;
+            float: left;
+            border-right: 2px solid;
+        }
+        .section4{
+            height: 100%;
+            display: inline-block;
+            width: 70%;
+            padding: 10px;
+        }
+        .article{
+            width: 100%;
+            height: 90%;
+            background-color: antiquewhite;
+            box-sizing: border-box;
+            border: 2px solid;
+        }
+
+        .header5, .footer5 {
+            width: 100%;background-color: darkseagreen;
+            height: 10%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .nav5{
+            height: 5%;
+            width: 100%;
+            background-color: darkseagreen;
+            border-bottom: 2px solid;
+            border-top: 2px solid;
+            box-sizing: border-box;
+        }
+        .section5{
+            width: 100%;
+            height: 75%;
+            background-color: darkseagreen;
+            box-sizing: border-box;
+            padding: 10px;
+            border-bottom: 2px solid;
+        }
+        .article5{
+            width: 100%;
+            height: 90%;
+            background-color: antiquewhite;
+            box-sizing: border-box;
+            border: 2px solid;
+        }
+
+        .header6, .footer6 {
+            width: 100%;background-color: khaki;
+            height: 10%;
+            text-align: center;
+            box-sizing: border-box;
+        }
+        .nav6{
+            height: 5%;
+            width: 100%;
+            background-color: khaki;
+            border-bottom: 2px solid;
+            border-top: 2px solid;
+            box-sizing: border-box;
+        }
+        .content6{
+            width: 100%;
+            height: 75%;
+            border-bottom: 2px solid;
+            box-sizing: border-box;
+        }
+        .section6{
+            width: 70%;
+            height: 100%;
+            background-color: khaki;
+            float: left;
+            border-right: 2px solid;
+            box-sizing: border-box;
+            padding: 20px;
+        }
+        .aside{
+            width: 30%;
+            height: 100%;
+            background-color: khaki;
+            float: right;
+        }
+        .article6{
+            width: 100%;
+            height: 50%;
+        }
+        .a1{
+            background-color: bisque;
+        }
+        .a2{
+            background-color: hotpink;
+            border-top: 2px solid;
+        }
+        .contain{
+            width: 100%;
+            height: 90%;
+            border: 2px solid;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="header">Header</div>
+        <div class="section">Section</div>
+        <div class="footer">Footer</div>
+    </div>
+    
+    <div class="wrapper2">
+        <div class="header2">header</div>
+        <div class="content">
+             <div class="nav">nav</div>
+            <div class="section2">section</div>
+        </div>
+       
+        <div class="footer2">footer</div>
+    </div>
+    
+    <div class="wrapper3">
+        <div class="header3">header</div>
+        <div class="menu">menu</div>
+        <div class="content2">
+             <div class="nav3">nav</div>
+            <div class="section3">section</div>
+        </div>
+        <div class="footer3">footer</div>
+    </div>
+
+    <div class="wrapper4">
+        <div class="header4">header</div>
+        <div class="content4">
+             <div class="nav4">nav</div>
+            <div class="section4">section
+                <div class="article">article</div>
+            </div>
+        </div>
+        <div class="footer4">footer</div>
+    </div>
+
+    <div class="wrapper5">
+        <div class="header5">header</div>
+        <div class="nav5">nav</div>
+            <div class="section5">section
+                <div class="article5">article</div>
+            </div>
+        <div class="footer5">footer</div>
+    </div>
+
+    <div class="wrapper6">
+        <div class="header6">header</div>
+        <div class="nav6">nav</div>
+        <div class="content6">
+            <div class="section6">section
+                <div class="contain">
+                    <div class="article6 a1">article</div>
+                    <div class="article6 a2">article</div>
+                </div>   
+            </div>
+            <div class="aside">aside</div>
+        </div>
+        <div class="footer6">footer</div>
+    </div>
+</body>
+</html>
