@@ -1,0 +1,100 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(165, 242, 255, 0.5), rgba(132, 255, 187, 0.5)), url(../img/dai-hoc-cong-nghiep-tphcm.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrapper {
+    height: 800px;
+    width: 1089px;
+    background-color: antiquewhite;
+}
+
+header {
+    position: relative;
+}
+
+header h1 {
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    color: rgb(43, 50, 156);
+    text-shadow: rgb(152, 135, 216) 2px 2px 5px;
+}
+
+header h2 {
+    position: absolute;
+    top: 70px;
+    left: 400px;
+    color: rgb(219, 187, 255);
+    text-shadow: rgb(63, 31, 100) 2px 2px 5px;
+}
+
+nav {
+    position: relative;
+}
+
+.menu li {
+    position: absolute;
+    height: 50px;
+    width: 150px;
+    background-color: cyan;
+    list-style-type: none;
+    text-indent: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(16, 59, 59);
+}
+
+.menu li:nth-child(5) {
+    top: 20px;
+    right: 10px;
+    width: 300px;
+    line-height: 50px;
+}
+
+.menu li:nth-child(4) {
+    top: 20px;
+    right: 320px;
+    line-height: 50px;
+}
+
+.menu li:nth-child(3) {
+    top: 20px;
+    right: 480px;
+    line-height: 50px;
+}
+
+.menu li:nth-child(2) {
+    top: 20px;
+    right: 640px;
+    line-height: 50px;
+}
+
+.menu li:nth-child(1) {
+    top: 20px;
+    right: 800px;
+    line-height: 50px;
+}
+
+.menu li:hover {
+    background-color: blueviolet;
+}
+
+li>a {
+    font-weight: bold;
+    color: deepskyblue;
+    text-decoration: none;
+}
+
+li:hover a {
+    color: chartreuse;
+}
+
+form #txtSearch {
+    width: 200px;
+}
